@@ -1,0 +1,322 @@
+.question-editor {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in;
+}
+
+.editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.editor-header h2 {
+    color: #667eea;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.editor-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.question-card {
+    background: #f8f9ff;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.question-card:hover {
+    border-color: #667eea;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+.question-card.editing {
+    border-color: #667eea;
+    background: white;
+}
+
+.question-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.question-number {
+    font-weight: 700;
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
+.question-card-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-btn {
+    padding: 6px 10px;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+}
+
+.icon-btn:hover:not(:disabled) {
+    background: #667eea;
+    transform: scale(1.1);
+}
+
+.icon-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.icon-btn.edit-btn:hover {
+    background: #764ba2;
+}
+
+.icon-btn.delete-btn:hover {
+    background: #dc3545;
+}
+
+.question-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.question-preview strong {
+    flex: 1;
+    color: #333;
+    font-size: 1rem;
+}
+
+.answer-count {
+    color: #666;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.question-edit-form {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #e0e0e0;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.form-group textarea,
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group textarea:focus,
+.form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #667eea;
+    background: #f8f9ff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.option-input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.option-label {
+    font-weight: 700;
+    color: #667eea;
+    min-width: 30px;
+    font-size: 1rem;
+}
+
+.option-input-group input[type="text"] {
+    flex: 1;
+    margin: 0;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 8px 12px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.radio-label:has(input:checked) {
+    background: #d4edda;
+}
+
+.radio-label input[type="radio"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.radio-text {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.delete-option-btn {
+    min-width: 35px;
+}
+
+.btn-small {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.btn-small:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+}
+
+.editor-summary {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #e0e0e0;
+    text-align: center;
+}
+
+.editor-summary p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.editor-summary strong {
+    color: #667eea;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+    .question-editor {
+        padding: 20px;
+    }
+
+    .editor-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .editor-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .editor-actions {
+        width: 100%;
+    }
+
+    .editor-actions button {
+        flex: 1;
+    }
+
+    .question-card {
+        padding: 15px;
+    }
+
+    .question-card-actions {
+        flex-wrap: wrap;
+    }
+
+    .icon-btn {
+        padding: 5px 8px;
+        font-size: 0.9rem;
+    }
+
+    .question-preview {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .option-input-group {
+        flex-wrap: wrap;
+    }
+
+    .option-input-group input[type="text"] {
+        width: 100%;
+        order: 2;
+    }
+
+    .radio-label {
+        order: 3;
+    }
+
+    .delete-option-btn {
+        order: 4;
+    }
+}

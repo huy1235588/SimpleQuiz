@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Thủ đô của Việt Nam là gì?",
+    "options": ["Hà Nội", "TP. Hồ Chí Minh", "Đà Nẵng", "Huế"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "2 + 2 = ?",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Ngôn ngữ lập trình web phổ biến nhất là gì?",
+    "options": ["Python", "Java", "JavaScript", "C++"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "HTML viết tắt của từ gì?",
+    "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "CSS được sử dụng để làm gì?",
+    "options": ["Tạo cơ sở dữ liệu", "Thiết kế giao diện web", "Lập trình logic", "Quản lý server"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "React được phát triển bởi công ty nào?",
+    "options": ["Google", "Microsoft", "Facebook", "Amazon"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Đơn vị đo tốc độ xử lý của CPU là gì?",
+    "options": ["MB", "GB", "GHz", "KB"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "HTTP là gì?",
+    "options": ["Hệ điều hành", "Giao thức truyền tải siêu văn bản", "Ngôn ngữ lập trình", "Phần mềm diệt virus"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Git được sử dụng để làm gì?",
+    "options": ["Chỉnh sửa hình ảnh", "Quản lý phiên bản mã nguồn", "Tạo website", "Thiết kế đồ họa"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "API viết tắt của từ gì?",
+    "options": ["Application Programming Interface", "Advanced Programming Integration", "Automated Program Interaction", "Application Process Integration"],
+    "correctAnswer": 0
+  }
+]

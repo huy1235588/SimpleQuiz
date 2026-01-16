@@ -1,0 +1,148 @@
+.import-questions {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.import-questions h2 {
+    color: #667eea;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.import-area {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 60px;
+    border: 3px dashed #667eea;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #f8f9ff;
+}
+
+.file-label:hover {
+    background: #eef1ff;
+    border-color: #764ba2;
+    transform: scale(1.02);
+}
+
+.upload-icon {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.file-label span:last-child {
+    font-size: 1.1rem;
+    color: #667eea;
+    font-weight: 600;
+}
+
+.error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffe6e6;
+    border: 2px solid #ff4444;
+    border-radius: 10px;
+    color: #cc0000;
+    font-weight: 600;
+}
+
+.sample-section {
+    margin: 40px 0;
+    padding: 30px;
+    background: #f8f9ff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.sample-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.sample-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.format-info {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.format-info h3 {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.3rem;
+}
+
+.format-example {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.format-example strong {
+    display: block;
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.format-example pre {
+    background: #2d3748;
+    color: #68d391;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .import-questions h2 {
+        font-size: 1.5rem;
+    }
+
+    .file-label {
+        padding: 30px 40px;
+    }
+
+    .upload-icon {
+        font-size: 3rem;
+    }
+
+    .sample-buttons {
+        flex-direction: column;
+    }
+
+    .format-example pre {
+        font-size: 0.8rem;
+        padding: 15px;
+    }
+}
