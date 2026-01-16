@@ -169,6 +169,19 @@ cp -r dist/* /var/www/simplequiz_build/
 systemctl reload nginx
 ```
 
+### Auto deploy với GitHub Actions:
+Xem hướng dẫn chi tiết trong file [GITHUB-SECRETS.md](./GITHUB-SECRETS.md)
+
+## Tích hợp Cloudflare (Khuyên dùng)
+
+Để tăng hiệu suất và bảo mật, nên tích hợp Cloudflare:
+- Free CDN global
+- SSL/HTTPS miễn phí
+- DDoS protection
+- Caching thông minh
+
+👉 Xem hướng dẫn đầy đủ: [CLOUDFLARE.md](./CLOUDFLARE.md)
+
 ## Monitoring
 
 ### Kiểm tra trạng thái Nginx:

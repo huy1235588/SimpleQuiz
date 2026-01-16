@@ -254,9 +254,9 @@ apt update && apt upgrade -y
 
 ## 📚 Hướng dẫn chi tiết
 
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Hướng dẫn deployment đầy đủ
-- **[GITHUB-SECRETS.md](GITHUB-SECRETS.md)** - Cấu hình GitHub Actions & Secrets
-- **[CLOUDFLARE.md](CLOUDFLARE.md)** - Tích hợp Cloudflare CDN & SSL
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Hướng dẫn deployment đầy đủ
+- **[GITHUB-SECRETS.md](./GITHUB-SECRETS.md)** - Cấu hình GitHub Actions & Secrets
+- **[CLOUDFLARE.md](./CLOUDFLARE.md)** - Tích hợp Cloudflare CDN & SSL
 
 ## 🚀 Tăng tốc với Cloudflare (Tùy chọn)
 
@@ -266,7 +266,7 @@ Sau khi deploy thành công, bạn có thể tích hợp Cloudflare để:
 - 🛡️ Bảo vệ DDoS
 - 📊 Analytics
 
-👉 Xem hướng dẫn chi tiết: [CLOUDFLARE.md](CLOUDFLARE.md)
+👉 Xem hướng dẫn chi tiết: [CLOUDFLARE.md](./CLOUDFLARE.md)
 
 ## 🤖 Auto Deploy với GitHub Actions
 
@@ -275,7 +275,7 @@ Sau khi deploy thành công, bạn có thể tích hợp Cloudflare để:
 2. Push code lên GitHub
 3. GitHub tự động build và deploy
 
-👉 Xem hướng dẫn chi tiết: [GITHUB-SECRETS.md](GITHUB-SECRETS.md)
+👉 Xem hướng dẫn chi tiết: [GITHUB-SECRETS.md](./GITHUB-SECRETS.md)
 
 ## Hỗ trợ
 
