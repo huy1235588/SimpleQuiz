@@ -33,6 +33,12 @@ function App() {
             alert("Vui lòng import hoặc tạo câu hỏi trước!");
             return;
         }
+        
+        // Nếu đang ở chế độ shuffle, shuffle lại câu hỏi và đáp án
+        if (isShuffled) {
+            handleShuffleQuestions();
+        }
+        
         setQuizStarted(true);
         setCurrentQuestionIndex(0);
         setUserAnswers([]);
