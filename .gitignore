@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Deployment
+*.tar.gz
+backups/
+
+# Environment files
+.env.local
+.env.production
+.env.*.local
+
+# SSH keys (never commit these!)
+*.pem
+*.key
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
