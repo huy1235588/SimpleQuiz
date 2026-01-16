@@ -130,23 +130,93 @@
 
 @media (max-width: 768px) {
     .import-questions h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .import-area {
+        margin-bottom: 30px;
     }
 
     .file-label {
-        padding: 30px 40px;
+        padding: 80px 20px;
+        min-width: auto;
+        width: 100%;
+        border-width: 2px;
     }
 
     .upload-icon {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .file-hint {
+        font-size: 0.8rem;
+    }
+
+    .sample-section {
+        padding: 20px 15px;
+        margin: 30px 0;
+    }
+
+    .sample-section h3 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
     }
 
     .sample-buttons {
         flex-direction: column;
+        gap: 10px;
+    }
+
+    .sample-buttons .btn {
+        width: 100%;
+    }
+
+    .format-info {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    .format-info h3 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .format-example {
+        margin-bottom: 20px;
+    }
+
+    .format-example strong {
+        font-size: 1rem;
+        margin-bottom: 8px;
     }
 
     .format-example pre {
-        font-size: 0.8rem;
-        padding: 15px;
+        font-size: 0.75rem;
+        padding: 12px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+    .import-questions h2 {
+        font-size: 1.2rem;
+    }
+
+    .file-label {
+        padding: 60px 15px;
+    }
+
+    .upload-icon {
+        font-size: 2rem;
+    }
+
+    .sample-section {
+        padding: 15px 10px;
+    }
+
+    .format-example pre {
+        font-size: 0.7rem;
+        padding: 10px;
     }
 }

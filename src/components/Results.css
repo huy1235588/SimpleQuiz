@@ -265,40 +265,117 @@
 
 @media (max-width: 768px) {
     .results {
-        padding: 20px;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .results-header {
+        margin-bottom: 30px;
     }
 
     .results-header h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 20px;
     }
 
     .score-card {
-        padding: 30px 40px;
+        padding: 25px 35px;
     }
 
     .score-emoji {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .score-number {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .score-percentage {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .score-grade {
-        font-size: 1rem;
+        font-size: 0.95rem;
+        letter-spacing: 1.5px;
+    }
+
+    .results-details h3 {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
     }
 
     .result-item {
-        padding: 15px;
+        padding: 15px 12px;
+        margin-bottom: 15px;
     }
 
     .result-header {
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    .result-question {
+        font-size: 1rem;
+        margin-bottom: 12px;
+    }
+
+    .option-item {
+        padding: 10px 12px;
+    }
+
+    .option-letter-result {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+        margin-right: 10px;
+    }
+
+    .option-text-result {
+        font-size: 0.9rem;
+    }
+
+    .results-actions .btn {
+        min-width: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .results {
+        padding: 15px 10px;
+    }
+
+    .results-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .score-card {
+        padding: 20px 30px;
+    }
+
+    .score-emoji {
+        font-size: 2rem;
+    }
+
+    .score-number {
+        font-size: 1.5rem;
+    }
+
+    .score-percentage {
+        font-size: 1rem;
+    }
+
+    .result-item {
+        padding: 12px 10px;
+    }
+
+    .result-question {
+        font-size: 0.95rem;
+    }
+
+    .option-text-result {
+        font-size: 0.85rem;
     }
 }

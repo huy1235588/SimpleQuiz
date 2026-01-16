@@ -265,32 +265,52 @@
 
 @media (max-width: 768px) {
     .question-editor {
-        padding: 20px;
+        padding: 20px 15px;
+        border-radius: 15px;
     }
 
     .editor-header {
         flex-direction: column;
         align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 20px;
     }
 
     .editor-header h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .editor-actions {
         width: 100%;
+        gap: 8px;
     }
 
     .editor-actions button {
         flex: 1;
+        font-size: 0.85rem;
+        padding: 10px 15px;
+    }
+
+    .empty-state {
+        padding: 40px 15px;
+        font-size: 1.1rem;
+    }
+
+    .questions-list {
+        gap: 15px;
     }
 
     .question-card {
-        padding: 15px;
+        padding: 15px 12px;
+    }
+
+    .question-number {
+        font-size: 1rem;
     }
 
     .question-card-actions {
         flex-wrap: wrap;
+        gap: 6px;
     }
 
     .icon-btn {
@@ -301,10 +321,37 @@
     .question-preview {
         flex-direction: column;
         align-items: flex-start;
+        gap: 10px;
+    }
+
+    .question-preview strong {
+        font-size: 0.95rem;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        font-size: 0.95rem;
+        margin-bottom: 8px;
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"] {
+        padding: 10px;
+        font-size: 0.95rem;
     }
 
     .option-input-group {
         flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .option-label {
+        min-width: 25px;
+        font-size: 0.95rem;
     }
 
     .option-input-group input[type="text"] {
@@ -314,9 +361,49 @@
 
     .radio-label {
         order: 3;
+        padding: 6px 10px;
+        font-size: 0.85rem;
     }
 
     .delete-option-btn {
         order: 4;
+        min-width: 30px;
+    }
+
+    .btn-small {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+
+    .editor-summary p {
+        font-size: 1rem;
+    }
+
+    .editor-summary strong {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .question-editor {
+        padding: 15px 10px;
+    }
+
+    .editor-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .question-card {
+        padding: 12px 10px;
+    }
+
+    .form-group textarea,
+    .form-group input[type="text"] {
+        font-size: 0.9rem;
+    }
+
+    .radio-label {
+        font-size: 0.8rem;
+        padding: 5px 8px;
     }
 }
