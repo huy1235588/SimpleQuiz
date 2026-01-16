@@ -12,6 +12,20 @@ function Quiz({
     isFirst,
     isLast,
 }) {
+    const handleAnswerClick = (index) => {
+        onAnswer(index);
+        
+        // Tự động chuyển câu sau 500ms
+        setTimeout(() => {
+            if (isLast) {
+                // Nếu là câu cuối, không tự động chuyển
+                return;
+            } else {
+                onNext();
+            }
+        }, 500);
+    };
+
     return (
         <div className="quiz">
             <div className="quiz-header">
@@ -40,7 +54,7 @@ function Quiz({
                             className={`option-button ${
                                 selectedAnswer === index ? "selected" : ""
                             }`}
-                            onClick={() => onAnswer(index)}
+                            onClick={() => handleAnswerClick(index)}
                         >
                             <span className="option-letter">
                                 {String.fromCharCode(65 + index)}

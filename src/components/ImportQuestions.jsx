@@ -3,9 +3,9 @@ import "./ImportQuestions.css";
 
 function ImportQuestions({ onImport }) {
     const [error, setError] = useState("");
+    const [isDragging, setIsDragging] = useState(false);
 
-    const handleFileUpload = (event) => {
-        const file = event.target.files[0];
+    const processFile = (file) => {
         if (!file) return;
 
         const reader = new FileReader();
@@ -44,6 +44,44 @@ function ImportQuestions({ onImport }) {
         };
 
         reader.readAsText(file);
+    };
+
+    const handleFileUpload = (event) => {
+        const file = event.target.files[0];
+        processFile(file);
+    };
+
+    const handleDragEnter = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging(true);
+    };
+
+    const handleDragLeave = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging(false);
+    };
+
+    const handleDragOver = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+    };
+
+    const handleDrop = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setIsDragging(false);
+
+        const files = e.dataTransfer.files;
+        if (files && files.length > 0) {
+            const file = files[0];
+            if (file.name.endsWith(".json") || file.name.endsWith(".csv")) {
+                processFile(file);
+            } else {
+                setError("Chỉ hỗ trợ file JSON hoặc CSV");
+            }
+        }
     };
 
     const parseCSV = (csv) => {
@@ -160,9 +198,21 @@ function ImportQuestions({ onImport }) {
                     onChange={handleFileUpload}
                     className="file-input"
                 />
-                <label htmlFor="file-input" className="file-label">
+                <label
+                    htmlFor="file-input"
+                    className={`file-label ${isDragging ? "dragging" : ""}`}
+                    onDragEnter={handleDragEnter}
+                    onDragLeave={handleDragLeave}
+                    onDragOver={handleDragOver}
+                    onDrop={handleDrop}
+                >
                     <span className="upload-icon">📁</span>
-                    <span>Chọn file JSON hoặc CSV</span>
+                    <span>
+                        {isDragging
+                            ? "Thả file vào đây"
+                            : "Kéo thả file hoặc click để chọn"}
+                    </span>
+                    <span className="file-hint">Hỗ trợ JSON & CSV</span>
                 </label>
 
                 {error && <div className="error-message">⚠️ {error}</div>}

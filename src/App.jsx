@@ -106,18 +106,9 @@ function App() {
             <main className="app-main">
                 {currentView === "home" && (
                     <div className="welcome-screen">
-                        <ImportQuestions onImport={handleImport} />
-
-                        <div className="main-actions">
-                            <button
-                                className="btn btn-primary btn-large"
-                                onClick={goToEditor}
-                            >
-                                ✏️ Chỉnh sửa câu hỏi
-                            </button>
-                        </div>
-
-                        {questions.length > 0 && (
+                        {questions.length === 0 ? (
+                            <ImportQuestions onImport={handleImport} />
+                        ) : (
                             <div className="quiz-info">
                                 <h2>📚 Đã có {questions.length} câu hỏi</h2>
                                 <button
@@ -128,6 +119,15 @@ function App() {
                                 </button>
                             </div>
                         )}
+
+                        <div className="main-actions">
+                            <button
+                                className="btn btn-primary btn-large"
+                                onClick={goToEditor}
+                            >
+                                ✏️ Chỉnh sửa câu hỏi
+                            </button>
+                        </div>
                     </div>
                 )}
 
