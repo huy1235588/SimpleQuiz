@@ -1,0 +1,87 @@
+[
+    {
+        "question": "The word \"we\" in paragraph 2 refers to",
+        "options": [
+            "humans",
+            "economists, sociologists, and politicians",
+            "animals",
+            "scientists"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "According to paragraph 2, how many degrees could the Earth warm up?",
+        "options": ["2.5", "2.5 or 10", "10", "from 2.5 to 10"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "According to paragraph 3, why should we stabilize GHG concentrations around 450-550 parts per million?",
+        "options": [
+            "to avoid the most serious effects of climate change",
+            "to avoid all damaging impacts of climate change",
+            "to mend the most damaging impacts of climate change",
+            "to stop climate change"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does \"which\" in paragraph 3 refer to?",
+        "options": [
+            "current concentrations",
+            "that current concentrations arelabout 380 ppm",
+            "380 ppm",
+            "ppm"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Why does the author mention Stephen Pacala and Robert Socolow?",
+        "options": [
+            "To introduce two researchers in the field",
+            "To proves that researchers are working to reduce GHG emission",
+            "To introduce one way to reduce GHG emission",
+            "To introduce Princeton University"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What stabilization wedges are NOT mentioned in the passage?",
+        "options": [
+            "create environment-friendly materials",
+            "capture and store carbon dioxide underground",
+            "increase the use of renewable energy",
+            "grow moretrees"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does \"them\" refer to?",
+        "options": ["researchers", "humans", "renewable resources", "wedges"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the best title for this passage?",
+        "options": [
+            "Arguments over Global Warming",
+            "Global Warming and its Causes",
+            "Global Warming Solutions",
+            "Global Warming's Effect on Earth"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Sequestering\" has closest meaning to .....................",
+        "options": ["Absorn", "Isolate", "Release", "Emit"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Why does the writer mention ”drawbacks\" in the last paragraph?",
+        "options": [
+            "To introduce the disadvantages of solutions in the following paragraph",
+            "To emphasize the disadvantages of the solutions in the previous paragraph",
+            "To recommend readers not to use the solutions",
+            "To emphasize the advantages of the solutions in different contexts"
+        ],
+        "correctAnswer": 3
+    }
+]

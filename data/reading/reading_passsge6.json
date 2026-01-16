@@ -1,0 +1,82 @@
+[
+    {
+        "question": "The phrase \"attachment to\" in line 1 is closest in meaning to ..........",
+        "options": [
+            "control of",
+            "distance from",
+            "curiosity about",
+            "preference for"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "The word \"protruding\" in line 12 is closest in meaning to ................",
+        "options": ["parallel", "simple", "projecting", "important"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The relationship of a mortise and a tenon is most similar to that of ...............",
+        "options": [
+            "a lock and a key",
+            "a book and its cover",
+            "cup and a saucer",
+            "a hammer and a nail"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "For what purpose did woodworkers use an auger ..................",
+        "options": [
+            "To whittle a peg",
+            "To make a tenon",
+            "To drill a hole",
+            "To measure a panel"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which of the following were NOT used in the construction of colonial furniture?",
+        "options": ["Mortises", "Nails", "Hinges", "Screws"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The author implies that colonial metalworkers were................",
+        "options": [
+            "unable to make elaborate parts",
+            "more skilled than woodworkers",
+            "more conservative than other colonists",
+            "frequently employed byjoiners"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "The word \"shield\" in line 20 is closest in meaning to ................",
+        "options": ["decorate", "copy", "shape", "protect"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "The word \"they\" in line 25 refers to ................",
+        "options": ["designs", "types", "colonists", "all"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The author implies that the colonial joiners ..................",
+        "options": [
+            "were highly paid",
+            "based their furniture on English models",
+            "used many specialized tools",
+            "had to adjustto using new kinds of wood in New England"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which of the following terms does the author explain in the passage?",
+        "options": [
+            "\"millennia\"",
+            "\"joiners\"",
+            "\"whittled\"",
+            "\"blacksmiths\""
+        ],
+        "correctAnswer": 1
+    }
+]

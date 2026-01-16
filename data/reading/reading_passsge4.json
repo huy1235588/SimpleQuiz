@@ -1,0 +1,97 @@
+[
+    {
+        "question": "How do antibiotics treat infections?",
+        "options": [
+            "They interfere with the reproductive cycle of bacteria.",
+            "They construct cell walls toyresist bacteria.",
+            "They inject enzymes that explode in affected cells.",
+            "They increasethe mitosisof healthy cells"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "The word \"them\" in paragraph 4 refers to ........................",
+        "options": [
+            "whatever properties",
+            "resistant bacteria",
+            "their competition",
+            "those individuals"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "The word \"anticipated\" in the passage is closest in meaning to ..............",
+        "options": ["predicted", "concealed", "investigated", "disregarded"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following best expresses the main idea of this passage?",
+        "options": [
+            "The \"miracle drug\" penicillin",
+            "Drug-resistant bacteria",
+            "Staphylococcus infections",
+            "Gene therapy treatments"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "According to paragraph 4, why do some bacteria benefit from antibiotics?",
+        "options": [
+            "The antibiotic eliminates competing bacteria, allowing resistant bacteria to reproduce.",
+            "The resistant bacteria compete with the antibiotic, and the bacteria become stronger.",
+            "The competition helps the resistant bacteria to multiply by reproducing with the resistant type.",
+            "The properties of the antibiotic are acquired by the bacteria, making it resistant to the competition."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "The word \"complacency\" in the passage is closest in meaning to ..................",
+        "options": [
+            "consensus of agreement",
+            "fear of consequences",
+            "lack of concern",
+            "awareness of potential"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of the sentences below best expresses the information in the highlighted statement in the passage?",
+        "options": [
+            "Some antibiotics affect a population of bacteria more efficiently than others.",
+            "There are several reasons why some bacteria do not respond to most antibiotics",
+            "The effect of antibiotics on bacteria is to bind them together into one population.",
+            "A small number of bacteria in any sample will probably be resistant to a specific antibiotic."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "The author mentions all of the following reasons for drug resistant bacteria to appear EXCEPT .................",
+        "options": [
+            "there was not enough profit incentive for companies to continue developing new antibiotics",
+            "statistically, some drug-resistant bacteria will occur naturally in any large population of bacteria",
+            "the newer antibiotics were not as strong and effective as the original penicillin—based drugs",
+            "competing bacteria are destroyed by antibiotics, allowing resistant bacteria to prosper."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "It can be inferred from the passage that ..........................",
+        "options": [
+            "research to develop new antibiotics will not be necessary in the future",
+            "the scientific community wasnot surprised by thehresistant strains of bacteria",
+            "antibiotics are not very expensive whent_hey‘are made available commercially",
+            "it takes years for a new drug to be made\"available commercially for consumers"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which ofthe following statements is NOT a mainﬂidea ofthe passage?",
+        "options": [
+            "Many strains of bacteria have become resistant to the antibiotics currently available.",
+            "Funding for the production of new antibiotics has been allocated to drug companies.",
+            "The first antibiotics were very effective in blocking the reproduction of bacteria.",
+            "New antibiotics are being developed to combat bacteria that resist the older antibiotics"
+        ],
+        "correctAnswer": 1
+    }
+]

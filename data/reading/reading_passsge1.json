@@ -1,0 +1,87 @@
+[
+      {
+        "question": "How many Chinese men start to smoke before the age of 20?",
+        "options": ["one-third", "two-thirds", "half", "all of them"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the word \"those men\" in paragraph 2 refer to?",
+        "options": [
+            "Men who smoke under the age of 20",
+            "Men who smoke above the age of 20",
+            "Men who give up smoking",
+            "Men who smoke in public"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "By 2030, how many men in China may die from smoking every year?",
+        "options": [
+            "one million",
+            "two million",
+            "three million",
+            "four million"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "In many areas of China, when do men usually smoke?",
+        "options": [
+            "Before a meal",
+            "After a meal",
+            "Before they go to sleep",
+            "When they get up"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "According to WHO, only ________ of Chinese adults can list bad effects of smoking.",
+        "options": ["one-third", "one-fourth", "one-fifth", "a half"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "\"Beijing\" refers to ....................",
+        "options": [
+            "China",
+            "The city of Beijing",
+            "The Chinese government",
+            "People who live in Beijing"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is Richard Peto's attitude toward smoking in China?",
+        "options": [
+            "He doesn't believe that people will give up smoking",
+            "He is disappointed with the Chinese government.",
+            "He thinks that people possibly stop smoking if they see reasons.",
+            "He is sure about the rise of future deaths in China."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of the following words does the word \"hamper\" have closest meaning to?",
+        "options": ["basket", "assist", "prohibit", "restrict"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the writer's purpose?",
+        "options": [
+            "To argue over smoking policy in China",
+            "To support smoking in China",
+            "To warn and prevent smoking in China",
+            "To report the result ofa research paper"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does the writer imply about Chinese government?",
+        "options": [
+            "They do not want to stop people from smoking",
+            "They have tried to stop people from smoking in public but with little success.",
+            "They have tried to close tobacco companies.",
+            "They do not care about smoking."
+        ],
+        "correctAnswer": 1
+    }
+]

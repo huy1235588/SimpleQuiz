@@ -1,0 +1,92 @@
+[
+    {
+        "question": "It can be inferred from the passage that the Countess of Huntingdon",
+        "options": [
+            "didn't care about Phillis‘ poetry",
+            "helped Phillis get her writings published",
+            "believed in slavery",
+            "was surprised that Phillis could read and write"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What question is answered in last paragraph?",
+        "options": [
+            "Who did Phillis marry?",
+            "Where were Phillis‘ works published?",
+            "What did Phillis prove?",
+            "Why was Phillis a slave?"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Phillis finally became free .............",
+        "options": [
+            "when she published her-poems in England",
+            "after meeting the Countess of Huntingdon",
+            "when she became wealthy",
+            "after her master died"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Phillis‘ first attempt at selling her poetry in America (the colonies) was .................",
+        "options": ["illegal", "imaginary", "unsuccessful", "successful"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of the following is TRUE about Phillis Wheatley?",
+        "options": [
+            "She was the first African-American slave to visit England.",
+            "She was the first African-American and slave to publish a book in the United States.",
+            "She was the first African-American and slave to be able to read and write",
+            "She was the first African-American and slave to meet George Washington."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "The Wheatley family estimated the age of the slave girl they named “Phills\" by",
+        "options": [
+            "her size",
+            "the condition of her teeth",
+            "her color",
+            "her weight"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "By the age of twelve, Phillis was ...................",
+        "options": [
+            "no longer a slave",
+            "married",
+            "a published poet",
+            "still not able to read or write"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The slaveowner who sold Phillis to the Wheatley family believed ...............",
+        "options": [
+            "she would soon recover from her illness",
+            "she was very intelligent",
+            "she was worth a lot of money",
+            "she would soon die"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Who was George Whiteﬁeld?",
+        "options": [
+            "A military general",
+            "Somebody who Phillis admired greatly",
+            "Phillis‘ husband",
+            "A slave owner"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Where is Phillis Wheatley buried?",
+        "options": ["No one knows", "Africa", "Boston", "Virginia"],
+        "correctAnswer": 0
+    }
+]

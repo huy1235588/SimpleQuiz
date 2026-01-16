@@ -1,0 +1,97 @@
+[
+    {
+        "question": "According to paragraph 2, the process of visual perception ............",
+        "options": [
+            "is not the same for all people",
+            "begins with patterns of light",
+            "is not very scientific",
+            "requires other senses to function"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What did Matisse reinterpret?",
+        "options": [
+            "A goddess from mythology",
+            "A painting by another artist",
+            "An ancient sculpture",
+            "A man in history"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The word \"them\" in the last paragraph refers to .............",
+        "options": [
+            "each attentive observer",
+            "thoughts and emotions",
+            "a lifetime of experiences",
+            "great works of art"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "The word \"bequeath\" in thepassage is closest in meaning to ...................",
+        "options": ["make out", "pass on", "look over", "take in"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "The author mentions all of the following ways to enhance the appreciation of art EXCEPT ...................",
+        "options": [
+            "understanding the artistic process",
+            "becoming familiar with the history",
+            "experiencing the art by copying",
+            "knowing about the life of the artist"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the main topic of this passage?",
+        "options": [
+            "Visual perception of sensory material",
+            "The historical context for artistic expression",
+            "Studying.Van Gogh's The Starry Night",
+            "The appreciation of works of art"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which of the sentences below best expresses the information in the highlighted statement in the passage?",
+        "options": [
+            "We see images differently because of the mode of perception.",
+            "Although we see images differently, the mode of perception is similar.",
+            "Since the mode of perception is similar, we see images in the same way.",
+            "When the mode of perception is the same, we see the same images"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Why might Van Gogh have painted The Starry Night?",
+        "options": [
+            "To symbolizelthe journey of life after death",
+            "To create a dramatic contrast with the sky",
+            "To place a strong image in the foreground",
+            "To include nature from his early experience"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "The word intrigued” in the passage is closest in meaning to ................",
+        "options": [
+            "very pleased",
+            "very confused",
+            "very interested",
+            "very surprised"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What can be inferred from the last paragraph?",
+        "options": [
+            "Greatest artworks are impossible to understand.",
+            "The author shows negative feelings toward contemporary art.",
+            "People need knowledge to understand art.",
+            "What we see in art is determined by our emotions, experiences, and thoughts."
+        ],
+        "correctAnswer": 3
+    }
+]

@@ -1,0 +1,427 @@
+[
+    {
+        "question": "Why did the speaker have to help her mother with the shopping?",
+        "options": [
+            "There were no Vietnamese people living near her.",
+            "There were no Vietnamese working in the stores.",
+            "There wasn't always someone to go shopping with her.",
+            "Her mother could speak a little English."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Why did her father ﬁnd working in a factory difﬁcult?",
+        "options": [
+            "He couldn't speak any English.",
+            "He didn't have many friends there.",
+            "He had had a much better job in Vietnam.",
+            "He couldn't get used to the working style."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Why are the speaker and her brother more fortunate than their sisters?",
+        "options": [
+            "They did not need extra English lessons.",
+            "They look more American.",
+            "They speak with American accents.",
+            "They quickly adopted the way of life."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What has the speaker forgotten about life in Vietnam?",
+        "options": [
+            "Living close to other people",
+            "The warm weather",
+            "Wearing traditional clothes",
+            "Traditional food"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Why does she ﬁnd it difficult to invite friends to her home?",
+        "options": [
+            "Her parents do not have much money.",
+            "Her parents haven't adopted an American way of life.",
+            "Her parents only know how to cook Vietnamese food.",
+            "Her parents do not speak English well."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What happened in American schools before 1972?",
+        "options": [
+            "Girls didn't go to school.",
+            "Every classroom was a mix of boys and girls.",
+            "Boys could learn what they wanted.",
+            "They didn't teach girls some subjects."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the reason that most American schools have mixed classes?",
+        "options": [
+            "Scientists said that it was the best thing.",
+            "Teachers did not want to teach single-gender classes.",
+            "A law gave girls an equal chance to learn.",
+            "Boys and girls behave better in such classes."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Why might girls not get a chance to talk much in a class with boys?",
+        "options": [
+            "Because the teacher doesn't ask them questions",
+            "Because boys are louder and often talk first",
+            "Because boys know the correct answers",
+            "Because girls are often shy."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is NOT the reason that some schools are reconsidering separating classes?",
+        "options": [
+            "They prefer the old teaching styles.",
+            "Boys learn differently than girls.",
+            "Boys and girls can bother each other.",
+            "Boys and girls like different things."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which is one class that is not mentioned as being separated?",
+        "options": ["Math", "Social Studies", "Science", "Physical Education"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Who is listening to the orientation talk?",
+        "options": [
+            "the director of international students",
+            "new international students",
+            "the teachers of international department",
+            "all first-year students in the college"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the purpose of this talk?",
+        "options": [
+            "to introduce the director for international student affairs",
+            "to deal with all international students’ problems.",
+            "to inform the importance of using English in class.",
+            "to introduce common problems in non-verbal communication."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "According to the speaker, what is body language?",
+        "options": [
+            "It's the use of verb tenses and modals.",
+            "lt's the way to ask for directions",
+            "It's the language used in class only.",
+            "lt's the language of movements and facial expressions."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "In American culture, ...",
+        "options": [
+            "Eye contact is the same as most cultures.",
+            "making eye contact is a sign of disrespect.",
+            "people don't look in others’ eyes while talking.",
+            "eye contact is considered as a sign of honesty."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "According to the speaker, what is TRUE about handshakes in American Culture?",
+        "options": [
+            "A handshake shouldn't be too strong.",
+            "Handshakes are not common.",
+            "Handshakes need to be firm.",
+            "Shaking hands is not important"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The presenter doesn t wear a suit because",
+        "options": [
+            "He is not an important person.",
+            "He wants to talk about different fashion trend.",
+            "The presentation is not formal.",
+            "He works for a fashion company."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "According to the speaker, which statement is TRUE?",
+        "options": [
+            "it's important to look casually-dressed in public.",
+            "A suit is necessary when meeting clients.",
+            "Wearing shorts is OK, sometimes.",
+            "Nobody can describe the way he's dressed."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the phrase \"Dress-clown Fridays\" mean?",
+        "options": [
+            "Employees must wear fashionable clothes on Fridays.",
+            "Employees can wear anything they want on Fridays.",
+            "Employees are allowed to wear informally on Fridays.",
+            "Employees are required to wear special clothes on Fridays."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "According to the speaker, who may bethe most informal dressers?",
+        "options": [
+            "People working in IT",
+            "People working in banks.",
+            "People working in customer sen/ices.",
+            "People working with clients."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does a customer feel about a manin uniform?",
+        "options": ["reliable", "recognized", "expertised", "eassured"],
+        "correctAnswer": 3
+    },
+    {
+        "question": "How many hours of sleepido experts suggestfor kids?",
+        "options": ["Ten", "About fifteen", "1,400", "70"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "According to the speaker, why is sleep important for the brain?",
+        "options": [
+            "Sleepgenerates dreams so brain can relax.",
+            "Brain can rest in a sleep.",
+            "Sleep can save energy for the brain.",
+            "Sleep improves the effectiveness of the brain."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Why don't the students learn well when they are tired?",
+        "options": [
+            "They can't finish their homework.",
+            "They can't deal with troubles in class",
+            "They get very excited.",
+            "They can't pay attention very well."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which is NOT a reason for poor sleep?",
+        "options": [
+            "drinking soda",
+            "playing computer games",
+            "staying up late",
+            "exercising before sleep"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What should students try to do each night?",
+        "options": [
+            "Watch a scary movie",
+            "Drink some hot tea",
+            "Go to bed at a regular time",
+            "relax with a TV show"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which is NOT the shape of the northern lights?",
+        "options": [
+            "a straight line",
+            "a curved line",
+            "a round shape",
+            "an oval shape"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does \"aurora borealis\" exactly mean?",
+        "options": [
+            "northern lights",
+            "northern dawn",
+            "northern sky",
+            "early morning lights"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Where is the best place to see the northern lights?",
+        "options": [
+            "The northernmost point of Earth",
+            "The north of Poland",
+            "Anywhere in Scandinavian countries",
+            "Most parts of the world"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is one of the stories developed by people before modern science?",
+        "options": [
+            "The lights were caused by foxes.",
+            "The lights were the dance of animals.",
+            "The lights appeared when people.",
+            "The lights came from fires of northern gods."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which of the following is NOT mentioned in this talk?",
+        "options": [
+            "A description of the lights",
+            "The scientiﬁc explanation for the lights .",
+            "The discovery of the lights",
+            "Beliefs about the lights."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What did Sandy Duffy want to be when she was at school?",
+        "options": [
+            "What did Sandy Duffy want to be when she was at school?",
+            "a journalist",
+            "A director",
+            "A basketball player"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What did Sandy study at university?",
+        "options": ["Math and Physics", "film making", "Technology", "Art"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How did Sandy get her ﬁrst job as a video game writer?",
+        "options": [
+            "She answered a job advertisement.",
+            "She met someone at a conference.",
+            "She sent some information about herself to a company.",
+            "She was invited by a friend."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does Sandy like best about being a video game writer?",
+        "options": [
+            "the prizes she has won.",
+            "the high salary",
+            "the people she works with",
+            "the great working condition"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does Sandy dislike about being a video game writer?",
+        "options": [
+            "She has to travel a lot.",
+            "She has to work long hours.",
+            "She often has to change herj ob.",
+            "She has to live far from home."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "How long does the trek last?",
+        "options": ["a day", "three days", "five days", "a week"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The trek aims to raise money for ..................",
+        "options": [
+            "health care",
+            "school education",
+            "hospital",
+            "the old people"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "The cost of the trek includes ................",
+        "options": [
+            "flight and airport taxes",
+            "medical provision and taxes",
+            "Foods",
+            "Food and accommodation"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Participants must ...............",
+        "options": [
+            "walk across a glacier.",
+            "complete a fitness course.",
+            "agree to raise funds for the charity.",
+            "pay amount of money."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "The trip starts on ..................",
+        "options": [
+            "1st of November",
+            "3rd of November",
+            "13th of November",
+            "23th of November"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Where do many of the rich people live?",
+        "options": [
+            "next to the new road",
+            "in the cities.",
+            "in the countryside.",
+            "in isolated places."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How long is the road?",
+        "options": [
+            "600 kilometres",
+            "6,000 kilometers",
+            "60,000 kilometres",
+            "60 miles"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What can you see on the computers at the road's headquarters in Delhi?",
+        "options": [
+            "small vehicles on the road",
+            "any vehicle and problems on the road",
+            "big vehicles on the road",
+            "serious problems on the road"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What types of transport can you see on the road?",
+        "options": [
+            "all types",
+            "mostly cars",
+            "mostly motorbikes",
+            "the presenter doesn't say"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Why does the presenter describe the new road as a symbol of India's future?",
+        "options": [
+            "Because it's the same shape as the country of India.",
+            "Because it is modern; it is helping the economy grow.",
+            "Because India has big population",
+            "Because lndia has lots of transport"
+        ],
+        "correctAnswer": 1
+    }
+]

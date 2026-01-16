@@ -1,0 +1,162 @@
+[
+     {
+        "question": "When is the man's appointment?",
+        "options": ["Wednesday", "Thursday", "Friday", "Tuesday"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which is the aunt's postcard?",
+        "options": [
+            "a pretty village right by the sea",
+            "big trees",
+            "a pretty village behind the tall trees",
+            "a pretty village on the hills"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What time will the plane to Milan leave?",
+        "options": ["01:00", "07:15", "08:15", "06:15"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which present has the girl bought her mother?",
+        "options": ["earrings", "music CD", "pen", "notebook"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What time will the pie be ready?",
+        "options": [
+            "four ﬁfteen",
+            "five o'clock",
+            "twenty past five",
+            "fifty past four"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What time is the swimming lesson today?",
+        "options": [
+            "half past four",
+            "fifteen to five",
+            "fifteen past five",
+            "four thirty"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which subject does the boy like best?",
+        "options": ["information technology", "geography", "sports", "design"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which T-shirt does the boy decide to buy?",
+        "options": [
+            "a short-sleeved T-shirt with round neck",
+            "a V-neck black T-shirt",
+            "a long-sleeved T-shirt",
+            "a sleeveless white T-shirt"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What colour is Mary's coat?",
+        "options": ["yellow", "blue", "brown", "black"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What did the woman repair?",
+        "options": ["chair", "shelf", "desk", "bed"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What are they going to buy for Pam?",
+        "options": ["a book", "a plant", "some chocolates", "candies"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What has the girl lost?",
+        "options": ["mobile phone", "purse", "pen", "bag"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which sport will the boy do soon at the centre?",
+        "options": ["waterskiing", "diving", "sailing", "swimming"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Who lives with Josh in his house?",
+        "options": [
+            "his grandmother",
+            "his father",
+            "his sister",
+            "his mother"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What will the girl take with her on holiday?",
+        "options": ["suitcase", "sports bag", "backpack", "overhead bag"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Where do the boys decide to go?",
+        "options": ["cinema", "game store", "park", "library"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What have they forgotten?",
+        "options": ["ticket", "camera", "passport", "bag"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What time does the train go?",
+        "options": ["06.15", "07.40", "06.10", "07.10"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "How did the woman get to work?",
+        "options": ["by bicycle", "by bus", "by car", "by train"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Where are the man’s shoes?",
+        "options": [
+            "under the chair",
+            "by the television",
+            "by the door with the other rubbish",
+            "under the table"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What will Paul get at the shop?",
+        "options": ["mushrooms", "onions", "carrots", "red pepper"],
+        "correctAnswer": 2
+    },
+    {
+        "question": "How were they told to do their homework?",
+        "options": [
+            "write it in the books",
+            "write it on paper",
+            "type it",
+            "email it"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What did Heleny buy?",
+        "options": ["gloves", "sweater", "socks", "hat"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "How did the woman get to work today?",
+        "options": [
+            "by bus",
+            "a neighbour offered her a lift",
+            "by bike",
+            "walk"
+        ],
+        "correctAnswer": 1
+    }
+]

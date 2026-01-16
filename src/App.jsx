@@ -3,6 +3,7 @@ import ImportQuestions from "./components/ImportQuestions";
 import Quiz from "./components/Quiz";
 import Results from "./components/Results";
 import QuestionEditor from "./components/QuestionEditor";
+import QuizManager from "./components/QuizManager";
 import "./App.css";
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     const [userAnswers, setUserAnswers] = useState([]);
     const [showResults, setShowResults] = useState(false);
     const [quizStarted, setQuizStarted] = useState(false);
-    const [currentView, setCurrentView] = useState("home"); // 'home', 'editor', 'quiz', 'results'
+    const [currentView, setCurrentView] = useState("home"); // 'home', 'editor', 'quiz', 'results', 'manager'
     const [isShuffled, setIsShuffled] = useState(false);
+    const [currentQuizName, setCurrentQuizName] = useState("");
 
     const handleImport = (importedQuestions) => {
         setQuestions(importedQuestions);
@@ -131,6 +133,22 @@ function App() {
         setShowResults(false);
     };
 
+    const goToManager = () => {
+        setCurrentView("manager");
+    };
+
+    const handleLoadQuizFromManager = (quizData, quizName) => {
+        setQuestions(quizData);
+        setOriginalQuestions(quizData);
+        setCurrentQuizName(quizName);
+        setCurrentQuestionIndex(0);
+        setUserAnswers([]);
+        setShowResults(false);
+        setQuizStarted(false);
+        setCurrentView("home");
+        setIsShuffled(false);
+    };
+
     const calculateScore = () => {
         let correct = 0;
         questions.forEach((question, index) => {
@@ -160,7 +178,7 @@ function App() {
                     <div className="welcome-screen">
                         {questions.length > 0 && (
                             <div className="quiz-info">
-                                <h2>📚 Đã có {questions.length} câu hỏi</h2>
+                                <h2>📚 {currentQuizName || "Đã có"} - {questions.length} câu hỏi</h2>
                                 <div className="quiz-options">
                                     {!isShuffled ? (
                                         <button
@@ -190,6 +208,12 @@ function App() {
                         <div className="main-actions">
                             <button
                                 className="btn btn-primary btn-large"
+                                onClick={goToManager}
+                            >
+                                📚 Quản lý bài trắc nghiệm
+                            </button>
+                            <button
+                                className="btn btn-primary btn-large"
                                 onClick={goToEditor}
                             >
                                 ✏️ Chỉnh sửa câu hỏi
@@ -197,6 +221,13 @@ function App() {
                         </div>
                         <ImportQuestions onImport={handleImport} />
                     </div>
+                )}
+
+                {currentView === "manager" && (
+                    <QuizManager
+                        onLoadQuiz={handleLoadQuizFromManager}
+                        onBackToHome={goToHome}
+                    />
                 )}
 
                 {currentView === "editor" && (
