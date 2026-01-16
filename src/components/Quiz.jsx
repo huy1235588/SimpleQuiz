@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import "./Quiz.css";
 
 function Quiz({
@@ -12,9 +13,20 @@ function Quiz({
     isFirst,
     isLast,
 }) {
+    const [isTransitioning, setIsTransitioning] = useState(false);
+
+    useEffect(() => {
+        // Trigger animation khi câu hỏi thay đổi
+        setIsTransitioning(true);
+        const timer = setTimeout(() => {
+            setIsTransitioning(false);
+        }, 500);
+        return () => clearTimeout(timer);
+    }, [questionNumber]);
+
     const handleAnswerClick = (index) => {
         onAnswer(index);
-        
+
         // Tự động chuyển câu sau 500ms
         setTimeout(() => {
             if (isLast) {
@@ -44,7 +56,11 @@ function Quiz({
                 </p>
             </div>
 
-            <div className="question-section">
+            <div
+                className={`question-section ${
+                    isTransitioning ? "slide-in" : ""
+                }`}
+            >
                 <h2 className="question-text">{question.question}</h2>
 
                 <div className="options-list">

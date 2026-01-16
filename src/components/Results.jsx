@@ -61,35 +61,45 @@ function Results({ questions, userAnswers, score, onRestart }) {
                                 {question.question}
                             </div>
 
-                            <div className="result-answers">
-                                {userAnswer !== undefined && (
-                                    <div
-                                        className={`answer ${
-                                            isCorrect ? "correct" : "incorrect"
-                                        }`}
-                                    >
-                                        <strong>Bạn chọn:</strong>{" "}
-                                        {String.fromCharCode(65 + userAnswer)}.{" "}
-                                        {question.options[userAnswer]}
-                                    </div>
-                                )}
-                                {!isCorrect && (
-                                    <div className="answer correct">
-                                        <strong>Đáp án đúng:</strong>{" "}
-                                        {String.fromCharCode(
-                                            65 + question.correctAnswer
-                                        )}
-                                        .{" "}
-                                        {
-                                            question.options[
-                                                question.correctAnswer
-                                            ]
-                                        }
-                                    </div>
-                                )}
+                            <div className="result-all-options">
+                                {question.options.map((option, optIndex) => {
+                                    const isUserAnswer = userAnswer === optIndex;
+                                    const isCorrectAnswer = question.correctAnswer === optIndex;
+                                    
+                                    let optionClass = "option-item";
+                                    if (isCorrectAnswer) {
+                                        optionClass += " correct-answer";
+                                    }
+                                    if (isUserAnswer && !isCorrectAnswer) {
+                                        optionClass += " wrong-answer";
+                                    }
+                                    if (isUserAnswer && isCorrectAnswer) {
+                                        optionClass += " user-correct";
+                                    }
+
+                                    return (
+                                        <div key={optIndex} className={optionClass}>
+                                            <span className="option-letter-result">
+                                                {String.fromCharCode(65 + optIndex)}
+                                            </span>
+                                            <span className="option-text-result">
+                                                {option}
+                                            </span>
+                                            {isCorrectAnswer && (
+                                                <span className="option-badge correct-badge">✓ Đúng</span>
+                                            )}
+                                            {isUserAnswer && !isCorrectAnswer && (
+                                                <span className="option-badge wrong-badge">✗ Bạn chọn</span>
+                                            )}
+                                            {isUserAnswer && isCorrectAnswer && (
+                                                <span className="option-badge correct-badge">✓ Bạn chọn đúng</span>
+                                            )}
+                                        </div>
+                                    );
+                                })}
                                 {userAnswer === undefined && (
                                     <div className="answer skipped">
-                                        <strong>Chưa trả lời</strong>
+                                        <strong>⚠️ Chưa trả lời câu này</strong>
                                     </div>
                                 )}
                             </div>

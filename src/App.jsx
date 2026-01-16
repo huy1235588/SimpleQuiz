@@ -7,19 +7,23 @@ import "./App.css";
 
 function App() {
     const [questions, setQuestions] = useState([]);
+    const [originalQuestions, setOriginalQuestions] = useState([]);
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
     const [showResults, setShowResults] = useState(false);
     const [quizStarted, setQuizStarted] = useState(false);
     const [currentView, setCurrentView] = useState("home"); // 'home', 'editor', 'quiz', 'results'
+    const [isShuffled, setIsShuffled] = useState(false);
 
     const handleImport = (importedQuestions) => {
         setQuestions(importedQuestions);
+        setOriginalQuestions(importedQuestions);
         setCurrentQuestionIndex(0);
         setUserAnswers([]);
         setShowResults(false);
         setQuizStarted(false);
         setCurrentView("home");
+        setIsShuffled(false);
     };
 
     const handleStartQuiz = () => {
@@ -67,6 +71,54 @@ function App() {
 
     const handleQuestionsChange = (updatedQuestions) => {
         setQuestions(updatedQuestions);
+        setOriginalQuestions(updatedQuestions);
+        setIsShuffled(false);
+    };
+
+    const shuffleArray = (array) => {
+        const shuffled = [...array];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    };
+
+    const handleShuffleQuestions = () => {
+        if (originalQuestions.length === 0) return;
+
+        // Shuffle câu hỏi
+        const shuffledQuestions = shuffleArray(originalQuestions)
+            .map((q) => ({
+                ...q,
+                options: shuffleArray(
+                    q.options.map((opt, idx) => ({ text: opt, index: idx }))
+                ),
+                originalCorrectAnswer: q.correctAnswer,
+            }))
+            .map((q) => {
+                // Tìm vị trí mới của đáp án đúng
+                const newCorrectIndex = q.options.findIndex(
+                    (opt) => opt.index === q.originalCorrectAnswer
+                );
+                return {
+                    question: q.question,
+                    options: q.options.map((opt) => opt.text),
+                    correctAnswer: newCorrectIndex,
+                };
+            });
+
+        setQuestions(shuffledQuestions);
+        setIsShuffled(true);
+        setUserAnswers([]);
+        setCurrentQuestionIndex(0);
+    };
+
+    const handleResetShuffle = () => {
+        setQuestions(originalQuestions);
+        setIsShuffled(false);
+        setUserAnswers([]);
+        setCurrentQuestionIndex(0);
     };
 
     const goToEditor = () => {
@@ -106,11 +158,26 @@ function App() {
             <main className="app-main">
                 {currentView === "home" && (
                     <div className="welcome-screen">
-                        {questions.length === 0 ? (
-                            <ImportQuestions onImport={handleImport} />
-                        ) : (
+                        {questions.length > 0 && (
                             <div className="quiz-info">
                                 <h2>📚 Đã có {questions.length} câu hỏi</h2>
+                                <div className="quiz-options">
+                                    {!isShuffled ? (
+                                        <button
+                                            className="btn btn-secondary"
+                                            onClick={handleShuffleQuestions}
+                                        >
+                                            🔀 Ngẫu nhiên câu hỏi & đáp án
+                                        </button>
+                                    ) : (
+                                        <button
+                                            className="btn btn-secondary"
+                                            onClick={handleResetShuffle}
+                                        >
+                                            ↩️ Khôi phục thứ tự gốc
+                                        </button>
+                                    )}
+                                </div>
                                 <button
                                     className="btn btn-primary"
                                     onClick={handleStartQuiz}
@@ -128,6 +195,7 @@ function App() {
                                 ✏️ Chỉnh sửa câu hỏi
                             </button>
                         </div>
+                        <ImportQuestions onImport={handleImport} />
                     </div>
                 )}
 
