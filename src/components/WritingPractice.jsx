@@ -6,6 +6,7 @@ function WritingPractice({ onBack }) {
     const [userText, setUserText] = useState("");
     const [showSample, setShowSample] = useState(true);
     const [isChecked, setIsChecked] = useState(false);
+    const [error, setError] = useState("");
 
     // Normalize text by converting to lowercase and splitting into words
     const normalizeText = (text) => {
@@ -100,25 +101,28 @@ function WritingPractice({ onBack }) {
 
     const handleCheck = () => {
         if (!sampleText.trim()) {
-            alert("Vui lòng nhập bài mẫu trước!");
+            setError("Vui lòng nhập bài mẫu trước!");
             return;
         }
         if (!userText.trim()) {
-            alert("Vui lòng viết bài của bạn trước!");
+            setError("Vui lòng viết bài của bạn trước!");
             return;
         }
+        setError("");
         setIsChecked(true);
     };
 
     const handleClearUserText = () => {
         setUserText("");
         setIsChecked(false);
+        setError("");
     };
 
     const handleClearAll = () => {
         setSampleText("");
         setUserText("");
         setIsChecked(false);
+        setError("");
     };
 
     const toggleShowSample = () => {
@@ -207,6 +211,13 @@ function WritingPractice({ onBack }) {
                         ← Quay lại
                     </button>
                 </div>
+
+                {/* Error Message */}
+                {error && (
+                    <div className="error-message">
+                        ⚠️ {error}
+                    </div>
+                )}
 
                 {/* Results Section */}
                 {isChecked && comparisonResult && (
