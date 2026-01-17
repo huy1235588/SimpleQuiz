@@ -4,6 +4,7 @@ import Quiz from "./components/Quiz";
 import Results from "./components/Results";
 import QuestionEditor from "./components/QuestionEditor";
 import QuizManager from "./components/QuizManager";
+import WritingPractice from "./components/WritingPractice";
 import "./App.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     const [userAnswers, setUserAnswers] = useState([]);
     const [showResults, setShowResults] = useState(false);
     const [quizStarted, setQuizStarted] = useState(false);
-    const [currentView, setCurrentView] = useState("home"); // 'home', 'editor', 'quiz', 'results', 'manager'
+    const [currentView, setCurrentView] = useState("home"); // 'home', 'editor', 'quiz', 'results', 'manager', 'writing'
     const [isShuffled, setIsShuffled] = useState(false);
     const [currentQuizName, setCurrentQuizName] = useState("");
 
@@ -143,6 +144,10 @@ function App() {
         setCurrentView("manager");
     };
 
+    const goToWriting = () => {
+        setCurrentView("writing");
+    };
+
     const handleLoadQuizFromManager = (quizData, quizName) => {
         setQuestions(quizData);
         setOriginalQuestions(quizData);
@@ -224,6 +229,12 @@ function App() {
                             >
                                 ✏️ Chỉnh sửa câu hỏi
                             </button>
+                            <button
+                                className="btn btn-primary btn-large"
+                                onClick={goToWriting}
+                            >
+                                📝 Ôn thi viết
+                            </button>
                         </div>
                         <ImportQuestions onImport={handleImport} />
                     </div>
@@ -265,6 +276,10 @@ function App() {
                         score={calculateScore()}
                         onRestart={handleRestart}
                     />
+                )}
+
+                {currentView === "writing" && (
+                    <WritingPractice onBack={goToHome} />
                 )}
             </main>
         </div>
